@@ -27,8 +27,7 @@ public class ProductService {
 
     public void deleteById(Long id) {
         Optional<Product> optionalTask = this.repository.findById(id);
-        if (optionalTask.isEmpty()) {
-        }
+
 
         this.repository.deleteById(id);
     }
