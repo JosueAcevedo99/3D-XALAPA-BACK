@@ -1,0 +1,5 @@
+com\productos\back\ProductApplication.class
+com\productos\back\persistence\entity\Product.class
+com\productos\back\persistence\repository\ProductRepository.class
+com\productos\back\controller\ProductController.class
+com\productos\back\service\ProductService.class
