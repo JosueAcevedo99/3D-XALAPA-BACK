@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @CrossOrigin
 @RestController
-@RequestMapping("/products")
+@RequestMapping("products")
 public class ProductController {
 
     private final ProductService productService;
@@ -25,7 +25,7 @@ public class ProductController {
        return this.productService.createProduct(product);
     }
 
-    @GetMapping
+    @GetMapping("/all")
     public List<Product> findAll(){
         return this.productService.findAll();
     }
