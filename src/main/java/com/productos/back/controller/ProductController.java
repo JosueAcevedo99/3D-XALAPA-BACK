@@ -36,7 +36,7 @@ public class ProductController {
         return ResponseEntity.noContent().build();
     }
 
-    @GetMapping(path = "get/{id}")
+    @GetMapping(path = "/get/{id}")
     public Optional<Product> obtenerProductoporId(Long id) {
         return this.productService.getProduct(id);
     }
