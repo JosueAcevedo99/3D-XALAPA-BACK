@@ -14,7 +14,7 @@
     <name>productapp</name>
     <description>productos from xalapa 3d</description>
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>11</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -76,6 +76,11 @@
                     <version>2.19.1</version>
                     <configuration> <testFailureIgnore>true</testFailureIgnore> </configuration>
                 </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.1.0</version>
+            </plugin>
         </plugins>
     </build>
 
